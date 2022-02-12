@@ -1,0 +1,170 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="Viewport" content="width=device-width",initial-scale=1.0>
+        <link rel="stylesheet" href="C:\Users\hp\Desktop\htmlbasics\style.css">
+        <title>front</title>
+        <style>
+            
+.disp{
+    display: flex;
+    flex-direction: column;
+   margin: auto;
+    border-radius: 10px;
+    margin-top: 6%;
+    margin-bottom: 5%;
+    top:10%;
+    bottom: 10%;
+    width: 25%;
+    align-items: center;
+    background-color: white;
+    gap: 17px;
+    box-shadow: 0 14px 10px hsl(224, 47%, 68%);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.dancing{
+    height: 40%;
+    width: 100%;
+   
+    border-radius: 10px 10px 0 0;
+}
+.head{
+   
+    color: hsl(224, 47%, 23%);
+    margin: 0px;
+}
+body{
+    background-repeat: no-repeat;
+    background-size: contain;
+   max-width: 100%;
+    background-color: hsl(225, 100%, 94%);
+    
+}
+.content{
+    
+    
+    color: hsl(224, 23%, 55%);
+    font-size: 16px;
+    left: 10px;
+    text-align: center;
+    
+}
+.icon{
+    display:inline-flex;
+    background-color: hsl(225, 100%, 98%);
+    border: 1px solid  hsl(225, 100%, 98%);
+    border-radius: 10px;
+    padding: 22px;
+    padding-left: 32px;padding-right: 32px;
+    column-gap: 30px;
+   
+
+}
+.annual{
+    color:rgb(12, 29, 70);
+    font-weight: 700;
+}
+.pay{
+    align-self: center;
+   padding-right: 90px;padding-left: 90px;
+   padding-top: 15px;padding-bottom: 15px;
+   background-color: hsl(245, 75%, 52%);
+   border: 1px hsl(245, 75%, 52%);
+   border-radius: 10px;
+   color:white;
+   box-shadow: 0 10px 10px hsl(224, 47%, 68%);
+}
+.cancel{
+    padding-top: 1px;
+    padding-bottom: 16px;
+    font-weight: 900;
+    font-size: 17px;
+}
+.dollar{
+    color: hsl(224, 23%, 55%);
+}
+.l3{
+    align-self: center;
+}
+/*just for experiment*/
+.exp{
+    color: grey;
+}
+@media screen and (max-width: 375px)
+{
+    .disp{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        border-radius: 10px;
+        margin-top: 30%;
+        /*margin-bottom: 65%;*/
+        /*margin-left: 2%; /*added*/
+        /*margin-right: 2%;/*added*/
+        top:10%;
+        bottom: 10%;
+        width: 80%;
+        /*align-items: center;*/
+       /* background-color: white;*/
+       /* gap: 17px;*/
+       /* box-shadow: 0 14px 10px hsl(224, 47%, 68%);*/
+    }
+    .dancing{
+        height: 40%;
+        width: 100%;
+       
+        border-radius: 10px 10px 0 0;
+    }
+    .exp{
+        color:red ;
+    }
+    .icon{
+        display:inline-flex;
+        background-color: hsl(225, 100%, 98%);
+        border: 1px solid  hsl(225, 100%, 98%);
+        border-radius: 10px;
+        padding: 10px;
+        padding-left: 4px;padding-right: 4px;
+        column-gap: 30px;
+       
+    
+    }
+    .pay{
+        align-self: center;
+       padding-right: 55px;padding-left: 55px;
+       padding-top: 15px;padding-bottom: 15px;
+       background-color: hsl(245, 75%, 52%);
+       border: 1px hsl(245, 75%, 52%);
+       border-radius: 10px;
+       color:white;
+       margin: 0px;
+       box-shadow: 0 10px 10px hsl(224, 47%, 68%);
+    }
+}
+
+        </style>
+    </head>
+    <body background="destopbg.svg">
+        <section class="disp">
+            <img src="illustration-hero.svg" alt="dancinggirl" class="dancing">
+            <div>
+                <h2 class="head">Order Summary</h2>
+            </div>
+            <div class="content">
+                <p>You can now listen to millions of songs,<br>audiobooks, and podcasts on any device <br>
+                    anywhere you like!</p>
+            </div>
+            <div class="icon">
+                <img src="icon-music.svg" alt="music">
+                <div class="annual">Annual Plan <br><div class="dollar"> $59.99/year</div></div>
+               
+                <a href="" class="link">Change</a>
+            </div>
+            <p class="pay">Proceed to Payment.</p>
+           <div class="cancel">Cancel Order</div>
+        </section>
+        
+        
+    </body>
+</html>
